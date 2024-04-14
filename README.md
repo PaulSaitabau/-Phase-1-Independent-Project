@@ -30,7 +30,8 @@ To get started with MemeGenius, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/MemeGenius.git
+   git clone https://github.com/Paul Saitabau
+   /MemeGenius.git
  ## Usage
 To use MemeGenius:
 
@@ -51,8 +52,7 @@ Click the "Preview Meme" button to see your custom meme.
 Meme templates provided by Imgflip API.
   ## Dependencies
 MemeGenius relies on the following dependencies:
-
-None
+1.None
   ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
 ## License
