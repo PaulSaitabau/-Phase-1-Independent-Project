@@ -49,3 +49,7 @@ Click the "Preview Meme" button to see your custom meme.
    cd MemeGenius
    ## Credits
 Meme templates provided by Imgflip API.
+  ## Dependencies
+MemeGenius relies on the following dependencies:
+
+None
