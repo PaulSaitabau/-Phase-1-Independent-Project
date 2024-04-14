@@ -32,5 +32,7 @@ To get started with MemeGenius, follow these steps:
    ```bash
    git clone https://github.com/your_username/MemeGenius.git
 
-   Navigate to the project directory:
+   ## Navigate to the project directory:
    cd MemeGenius
+   ## Credits
+Meme templates provided by Imgflip API.
