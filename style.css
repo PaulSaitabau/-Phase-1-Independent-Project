@@ -87,3 +87,25 @@ form button {
 .hidden {
     display: none;
 }
+
+/* Basic styling for the download link */
+#download-link {
+    display: inline-block; /* Ensures the padding is applied correctly */
+    color: #007BFF; /* Blue color for the link text */
+    background-color: #F8F9FA; /* Light grey background */
+    padding: 10px 20px; /* Padding to make the link larger and easier to click */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Removes the underline */
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect to change the background color when the mouse is over the link */
+#download-link:hover {
+    background-color: #E9ECEF; /* Slightly darker grey on hover */
+}
+
+/* Active state to change the background color when the link is clicked */
+#download-link:active {
+    background-color: #CED4DA; /* Even darker grey on click */
+}
