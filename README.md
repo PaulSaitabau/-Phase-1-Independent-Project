@@ -31,6 +31,19 @@ To get started with MemeGenius, follow these steps:
 
    ```bash
    git clone https://github.com/your_username/MemeGenius.git
+ ## Usage
+To use MemeGenius:
+
+Open the index.html file in your web browser.
+
+Browse through the available memes using the navigation buttons.
+
+Use the search functionality to find specific memes by name.
+
+To generate a custom meme, select a template and add your desired text in the input fields provided.
+
+Click the "Preview Meme" button to see your custom meme.
+
 
    ## Navigate to the project directory:
    cd MemeGenius
