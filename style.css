@@ -2,54 +2,68 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #3939c0;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 8000px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f7f7f8;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     text-align: center;
+    font-style :italic;
+    font-size: 100px; /* Increased font size for titles */
 }
 
 .meme-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
 
 .meme-view {
     margin-bottom: 10px;
+    width: 100%; /* Ensure the meme view takes full width */
+    height: 1300px; /* Fixed height for the meme display area */
+    border: 1px solid #ccc; /* Add a border to the meme display area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .meme-controls button {
     margin: 5px;
-    padding: 10px 20px;
+    padding: 15px 35px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 150px; /* Fixed width for buttons */
 }
 
 .meme-controls button:hover {
     background-color: #0056b3;
+    font-size:xx-large;
 }
 
 #search-input {
-    margin-right: 10px;
+    margin-right: 10000px;
+    align-items: center;
+    align-content: center;
+    font-size:xx-large;
 }
 
 #search-btn {
     background-color: #28a745;
+    font-size:xx-large;
 }
 
 #search-btn:hover {
@@ -61,7 +75,8 @@ form select,
 form button {
     margin: 5px;
     padding: 10px;
-    width: 100%;
+    width: 20%;
+    align-content: center;
     box-sizing: border-box;
 }
 
