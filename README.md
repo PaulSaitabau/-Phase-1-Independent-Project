@@ -53,3 +53,6 @@ Meme templates provided by Imgflip API.
 MemeGenius relies on the following dependencies:
 
 None
+  ## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
+
