@@ -51,7 +51,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
-Project Link: [https://github.com/yourusername/MemeGenius](https://github.com/yourusername/MemeGenius)
+Project Link: [https://github.com/PaulSaitabau/MemeGenius](https://github.com/yourusername/MemeGenius)
 
 ## JavaScript Code
 
