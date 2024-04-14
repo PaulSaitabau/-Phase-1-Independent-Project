@@ -48,10 +48,10 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
+ Name :Paul Saitabau
+ email :paulsaitabau05@gmail.com
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
-Project Link: [https://github.com/PaulSaitabau/MemeGenius](https://github.com/yourusername/MemeGenius)
-
+Project Link: [https://github.com/PaulSaitabau/MemeGenius]
 ## JavaScript Code
 
