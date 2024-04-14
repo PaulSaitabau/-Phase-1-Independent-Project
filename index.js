@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let memeIndex = 0;
     let memeData = [];
+
     
     const memeImg = document.getElementById('meme-img');
     const prevBtn = document.getElementById('prev-btn');
