@@ -21,3 +21,4 @@ To get a local copy up and running, follow these simple steps.
 ### Installation
 
 1. Clone the repository to your local machine.
+2. Navigate to the project directory.
