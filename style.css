@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #3939c0;
+    margin: 1px;
+    padding: 1px;
+    background-color: #070707;
 }
 
 .container {
@@ -70,6 +70,20 @@ h1, h2 {
 #search-btn:hover {
     background-color: #218838;
 }
+#download-btn {
+    margin: 5px;
+    padding: 15px 35px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+#download-btn:hover {
+    background-color: #0056b3;
 
 form input[type="text"],
 form select,
@@ -81,7 +95,7 @@ form button {
     box-sizing: border-box;
 }
 
-
+}
 .hidden {
     display: none;
 }

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const randomBtn = document.getElementById("random-btn");
     const searchInput = document.getElementById("search-input");
     const searchBtn = document.getElementById("search-btn");
+    const downloadBtn = document.getElementById("download-btn");
 
     // Initialize memeIndex to 0
   let memeIndex = 0;
@@ -44,6 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
         displayMeme(memeIndex);
     });
 
+    // Event listener for download button
+    downloadBtn.addEventListener('click', () => {
+        const link = document.createElement('a');
+        link.href = memeImg.src;
+        link.download = 'meme.jpg'; // You can change the filename here
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
     // Event listener for search button
     searchBtn.addEventListener('click', () => {
         const searchTerm = searchInput.value.toLowerCase();
