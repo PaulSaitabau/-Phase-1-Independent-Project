@@ -1,13 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let memeIndex = 0;
-    let memeData = [];
+      //DOM events
+    const memeImg = document.getElementById("meme-img");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const randomBtn = document.getElementById("random-btn");
+    const searchInput = document.getElementById("search-input");
+    const searchBtn = document.getElementById("search-btn");
 
-    const memeImg = document.getElementById('meme-img');
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-    const randomBtn = document.getElementById('random-btn');
-    const searchInput = document.getElementById('search-input');
-    const searchBtn = document.getElementById('search-btn');
+    // Initialize memeIndex to 0
+  let memeIndex = 0;
+   // Initialize memeData as an empty array
+   let memeData = [];
 
     // Fetch meme templates from the Imgflip API
     fetch('https://api.imgflip.com/get_memes')
