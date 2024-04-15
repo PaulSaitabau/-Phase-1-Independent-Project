@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-      //DOM events
+      //DOM elements
     const memeImg = document.getElementById("meme-img");
     const prevBtn = document.getElementById("prev-btn");
     const nextBtn = document.getElementById("next-btn");
